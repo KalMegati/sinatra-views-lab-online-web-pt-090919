@@ -1,5 +1,8 @@
 <html>
   <h1>Today</h1>
-<%=binding.pry%>
+<%
+  weekday = Date.today.strftime("%A")
+  
+%>
   <p><%= "The date is "%></p>
 </html>
